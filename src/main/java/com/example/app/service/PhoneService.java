@@ -58,14 +58,14 @@ public class PhoneService {
     // Lời gọi này sẽ gây ra N+1 query khi view cố gắng truy cập list phones của mỗi manufacture.
     @Transactional(readOnly = true)
     public List<Manufacture> getManufacturesNaively() {
-        System.out.println("\n--- BẮT ĐẦU LẤY DANH SÁCH MANUFACTURE (GÂY RA N+1) ---\n");
+        System.out.println("\n--- BAT DAU LAY DANH SACH MANUFACTURE (GAY RA N+1) ---\n");
         return manufactureRepository.findAll();
     }
 
     // **SỬ DỤNG PHƯƠNG THỨC ĐÃ TỐI ƯU**
     @Transactional(readOnly = true)
     public List<Manufacture> getManufacturesOptimized() {
-        System.out.println("\n--- BẮT ĐẦU LẤY DANH SÁCH MANUFACTURE (ĐÃ TỐI ƯU JOIN FETCH) ---\n");
+        System.out.println("\n--- BAT DAU LAY DANH SACH MANUFACTURE (DA TOI UU JOIN FETCH) ---\n");
         return manufactureRepository.findAllWithPhones();
     }
 

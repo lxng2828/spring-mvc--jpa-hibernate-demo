@@ -9,10 +9,10 @@
 <h1>Demo Spring MVC + Spring Data JPA</h1>
 <p>Dự án này biểu diễn các khái niệm chính về Spring Data JPA trong môi trường không dùng Spring Boot.</p>
 <div class="list-group">
-    <a href="/phones" class="list-group-item list-group-item-action">1. Quản lý Điện thoại (CRUD & Search)</a>
-    <a href="/n-plus-1-problem" class="list-group-item list-group-item-action">2. Tái hiện vấn đề N+1 Select (Kiểm tra
+    <a th:href="@{/phones}" class="list-group-item list-group-item-action">1. Quản lý Điện thoại (CRUD & Search)</a>
+    <a th:href="@{/n-plus-1-problem}" class="list-group-item list-group-item-action">2. Tái hiện vấn đề N+1 Select (Kiểm tra
         Console Log)</a>
-    <a href="/n-plus-1-solution" class="list-group-item list-group-item-action">3. Giải pháp cho N+1 với JOIN FETCH
+    <a th:href="@{/n-plus-1-solution}" class="list-group-item list-group-item-action">3. Giải pháp cho N+1 với JOIN FETCH
         (Kiểm tra Console Log)</a>
 </div>
 </body>

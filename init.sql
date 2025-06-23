@@ -1,4 +1,6 @@
-CREATE DATABASE phone_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- DROP DATABASE IF EXISTS phone_db;
+-- CREATE DATABASE phone_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- USE phone_db;
 
 -- Chèn dữ liệu cho manufactures
 INSERT INTO manufactures (name, country)
