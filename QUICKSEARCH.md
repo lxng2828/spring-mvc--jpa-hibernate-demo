@@ -1,4 +1,4 @@
-# TỪ KHÓA ĐẶT TÊN METHOD TRONG SPRING DATA JPA**
+# **TỪ KHÓA ĐẶT TÊN METHOD TRONG SPRING DATA JPA**
 
 > Dùng để tạo method **tuỳ biến truy vấn** theo thuộc tính mà không cần viết SQL hay JPQL.
 
