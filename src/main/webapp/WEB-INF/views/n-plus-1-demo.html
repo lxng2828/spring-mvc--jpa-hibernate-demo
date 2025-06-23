@@ -27,6 +27,6 @@
         <li th:each="phone : ${man.phones}" th:text="${phone.name}">Phone Name</li>
     </ul>
 </div>
-<a href="/" class="btn btn-secondary mt-3">Quay lại Trang chủ</a>
+<a th:href="@{/}" class="btn btn-secondary mt-3">Quay lại Trang chủ</a>
 </body>
 </html>
