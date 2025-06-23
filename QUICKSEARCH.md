@@ -33,7 +33,7 @@ boolean existsByPhoneNumber(String phone);
 
 ---
 
-# CÁC METHOD ĐƯỢC SINH SẴN (KHÔNG CẦN VIẾT LẠI)**
+# **CÁC METHOD ĐƯỢC SINH SẴN (KHÔNG CẦN VIẾT LẠI)**
 
 > Những method có sẵn từ `JpaRepository<T, ID>`. Không cần định nghĩa lại trong interface.
 
